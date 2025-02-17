@@ -1,4 +1,4 @@
-#vou utilizar essa nova aba para pegar as posição das tela do promob    :)
+#vou utilizar essa nova aba para pegar as posição das tela do programa    :)
 import pyautogui
 import time
 time.sleep(5)
