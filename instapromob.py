@@ -3,7 +3,7 @@ import pygetwindow as gw  # type: ignore
 import time
 
 def abrir_promob():
-    """Abre o programa da Suspentech."""
+    """Abre o programa Promob ERP Suspentech."""
     pyautogui.doubleClick(x=45, y=209)
     
     time.sleep(18)  # Aumentei o tempo pra esperar o promob carregar tudo
@@ -52,14 +52,14 @@ def main():
     senha = '*******' #Digite a senha 
     
     # Abrir o Promob
-    abrir_Programa()
+    abrir_promob()
 
     # Login no Promob
-    login_programa(usuario, senha)
+    login_promob(usuario, senha)
     time.sleep(7)
 
     #Maximizar a janela do Promob
-    maximizar_janela('Programa - SUSPENTECH INDUSTRIA DE COMPONENTES AUTOMOTIVOS LTDA')
+    maximizar_janela('Promob - SUSPENTECH INDUSTRIA DE COMPONENTES AUTOMOTIVOS LTDA')
 
     # Espera para garantir que a janela esteja carregada
     time.sleep(7)  # Aumentar o tempo de espera antes de minimizar
@@ -69,7 +69,7 @@ def main():
     clicar_coordenadas(870, 593)  # clicar no processo de etiqueta
      #Minimizar a janela do Promob
     time.sleep(3)
-    minimizar_janela('Programa - SUSPENTECH INDUSTRIA DE COMPONENTES AUTOMOTIVOS LTDA')
+    minimizar_janela('Promob - SUSPENTECH INDUSTRIA DE COMPONENTES AUTOMOTIVOS LTDA')
 
     # Maximizar a janela específica
     time.sleep(18)
